@@ -16,8 +16,9 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home
-            <span class="visually-hidden">(current)</span>
+
+          <a class="nav-link active" href="#"><img src="imagenes\20211025_001342915_iOS.png" height="50" width="50" >
+          <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
