@@ -12,7 +12,7 @@
   <a class="nav-link active" href="http://localhost/xampp/kinderbuapo/"><img src="imagenes\20211025_001342915_iOS.png" height="50" width="50" >
           <span class="visually-hidden">(current)</span>
 
-    <a class="navbar-brand" href="#">Profesor</a>
+    <a class="navbar-brand" href="http://localhost/xampp/kinderbuapo/">KINDER BUAPO</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
