@@ -6,35 +6,19 @@
 
 
     <head>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
+
+  <a class="nav-link active" href="http://localhost/xampp/kinderbuapo/"><img src="imagenes\20211025_001342915_iOS.png" height="50" width="50" >
+          <span class="visually-hidden">(current)</span>
+
     <a class="navbar-brand" href="#">Profesor</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-
-          <a class="nav-link active" href="#"><img src="imagenes\20211025_001342915_iOS.png" height="50" width="50" >
-          <span class="visually-hidden">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-      </ul>
+     
       <form class="d-flex">
         <input class="form-control me-sm-2" type="text" placeholder="Search">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
@@ -45,23 +29,24 @@
     </head>
     <body>
 
-    <h2>Example body text</h2>
-<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-<p><small>This line of text is meant to be treated as fine print.</small></p>
-<p>The following is <strong>rendered as bold text</strong>.</p>
-<p>The following is <em>rendered as italicized text</em>.</p>
-<p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+    <h2>Bienvenido Profesor</h2>
+    
 
-
+    <a>Buscar materia: </a>
+     <form class="d-flex">
+       <input class="form-control me-sm-2" type="text" placeholder="Materia">
+       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+     </form>
+   </div>
 
 
     <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Type</th>
-      <th scope="col">Column heading</th>
-      <th scope="col">Column heading</th>
-      <th scope="col">Column heading</th>
+      <th scope="col">Alumno</th>
+      <th scope="col">Matrícula</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Retroalimentación</th>
     </tr>
   </thead>
   <tbody>
@@ -73,54 +58,6 @@
     </tr>
     <tr>
       <th scope="row">Default</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">Primary</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-secondary">
-      <th scope="row">Secondary</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-success">
-      <th scope="row">Success</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-danger">
-      <th scope="row">Danger</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-warning">
-      <th scope="row">Warning</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-info">
-      <th scope="row">Info</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-light">
-      <th scope="row">Light</th>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-    </tr>
-    <tr class="table-dark">
-      <th scope="row">Dark</th>
       <td>Column content</td>
       <td>Column content</td>
       <td>Column content</td>
