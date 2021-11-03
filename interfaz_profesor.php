@@ -12,7 +12,7 @@
   <a class="nav-link active" href="http://localhost/xampp/kinderbuapo/"><img src="imagenes\20211025_001342915_iOS.png" height="50" width="50" >
           <span class="visually-hidden">(current)</span>
 
-    <a class="navbar-brand" href="http://localhost/xampp/kinderbuapo/">KINDER BUAPO</a>
+    <a class="navbar-brand" href="http://localhost/xampp/kinderbuapo/">KINDER <strong>BUAPO</strong></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,9 +32,9 @@
     <h2>Bienvenido Profesor</h2>
     
 
-    <a>Buscar materia: </a>
+    <a>Buscar alumno: </a>
      <form class="d-flex">
-       <input class="form-control me-sm-2" type="text" placeholder="Materia">
+       <input class="form-control me-sm-2" type="text" placeholder="Alumno">
        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
      </form>
    </div>
