@@ -45,17 +45,14 @@
     y pagar la inscripción o colegiaturas, para proceder, da click en la siguiente imágen:</p>
 
    <!-- prueba imagen -->
-  <a title="Pagar colegiatura" href="">
-  <center>
-  <img src="imagenes\folder.png"
-    width="200"
-    height="200">
-    </center>
-    </a>
+  <a title="Pagar colegiatura" href=""><center><img src="imagenes\folder.png" width="100" height="100"></center></a>
  <!-- fin prueba imagen -->
 
 
 	    <div class="container">
+
+      <a title="Registro"><center><img src="imagenes\user.png" width="100" height="100"></center></a>
+
       <form class="form-horizontal" action="interfaz.php" method="post">
         <div class="form-group">
 		 <h4><label class="col-sm-2 control-label">Registrate</label></h4> <p>
@@ -104,6 +101,9 @@
 
 
     <div class="container">
+
+    <a title="Ingreso"><center><img src="imagenes\user.png" width="100" height="100"></center></a>
+
       <form class="form-horizontal" action="interfaz.php" method="post">
         <div class="form-group">
         <h6><label class="col-sm-0 control-label">¿Ya eres usuario?</label></h6> <p>
